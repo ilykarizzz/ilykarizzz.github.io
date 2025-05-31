@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #0A0A0A;
+  --accent: #FFA500;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--primary);
+  color: white;
+}
